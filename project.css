@@ -1,0 +1,1352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bgimage{
+    background-image: url('bgpic.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu{
+    width: 25% ;
+    line-height:100px;
+    float: left;
+}
+
+
+.leftmenu img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+   
+    
+}
+
+
+.rightmenu  a {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size :15px;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 50px;
+    padding-left: 80px;
+}
+
+
+
+.rightmenu a:hover{
+    color: orange;
+}
+
+
+
+/* 
+.rightmenu ul{
+    margin-left: 380px;
+}
+
+.rightmenu  li {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size :15px;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+
+
+.rightmenu ul li:hover{
+    color: orange;
+} */
+
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+
+.text h1:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color .5s;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 40px;
+    color:orange;
+}
+
+
+button{
+    margin-top: 20px;
+
+}
+
+
+.intro{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+button:active{
+    background-color:orange
+}
+
+.HE{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.HNE{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.WM{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;   
+    color: white;
+}
+
+.SOL{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;   
+    color: white;
+}
+
+
+
+/* intro.html 1 */
+
+.headingintro{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+}
+
+main{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    }
+
+    
+    main .rightintro{
+        padding-right: 70px;
+    }
+    
+    main .leftintro{ 
+      padding-left: 100px;
+    }
+    
+    
+    .firstintro h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+    }
+    
+    .leftintro p{
+        margin-bottom: 20px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-right: 60px;
+    }
+
+    .rightintro img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 30px;
+
+    }
+
+    
+/* intro.html 2 */
+
+
+    .secondintro h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+    }
+
+    .secondleftintro ul li {
+        font-size:25px ;
+        margin-left: 100px;
+    }
+
+    .secondrightintro img {
+        margin-top: 30px;
+        margin-right: 50px;
+        border-radius: 10px;
+    }
+
+ 
+/* intro.html 3 */
+
+.ThirdIntro h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+}
+
+    
+    main .Thridrightintro{
+        padding-right: 70px;
+    }
+    
+    main .Thridleftintro{ 
+      padding-left: 100px;
+    }
+    
+    
+    .Thridleftintro h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 30px;
+    }
+    
+    
+    .Thridleftintro p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .Thridrightintro img{
+        width: 350px;
+    }
+
+
+/* intro.html 4 */
+   
+.FourIntro h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+
+    }
+
+    main .Fourrightintro{
+        padding-right: 70px;
+    }
+    
+    main .Fourleftintro{ 
+      padding-left: 100px;
+    }
+    
+    .Fourleftintro p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .Fourrightintro img{
+        width: 350px;
+        border-radius: 10px;
+    }
+
+/* intro.html 5 */
+
+.fiveintro h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+
+    }
+
+    main .fiverightintro{
+        padding-right: 70px;
+    }
+    
+    main .fiveleftintro{ 
+      padding-left: 100px;
+    }
+    
+    .fiveleftintro p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .fiverightintro img{
+        width: 350px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+
+/* intro.html 6 */
+
+    .sixintro h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+    }
+
+    .sixleftintro ul li {
+        font-size:25px ;
+        margin-left: 100px;
+    }
+
+    .sixrightintro img {
+        margin-top: 30px;
+        margin-right: 50px;
+        border-radius: 5px;
+        width: 550px;
+    }
+
+
+/* intro.html 7 */
+
+main .sevenrightintro{
+    padding-right: 70px;
+}
+
+main .sevenleftintro{ 
+  padding-left: 100px;
+}
+
+.sevenleftintro p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+
+.sevenrightintro img{
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 60px;
+
+}
+
+/* intro.html 8 */
+
+main .eightrightintro{
+    padding-right: 70px;
+}
+
+main .eightleftintro{ 
+  padding-left: 100px;
+}
+
+.eightleftintro p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.eightrightintro img{
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 60px;
+
+}
+
+
+/* intro.html 9 */
+
+.nineintro h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+}
+
+.nineleftintro ul li {
+    font-size:25px ;
+    margin-left: 100px;
+}
+
+.ninerightintro img {
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 550px;
+    margin-bottom: 40px;
+    
+}
+
+
+/* intro.html 10 */
+
+
+
+main .tenrightintro{
+    padding-right: 70px;
+}
+
+main .tenleftintro{ 
+  padding-left: 100px;
+}
+
+.tenleftintro h1{
+    margin-top: 20px;
+    margin-left:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.tenleftintro p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.tenrightintro img{
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 60px;
+
+}
+
+
+/* intro.html 11 */
+
+
+main .elevenrightintro{
+    padding-right: 70px;
+}
+
+main .elevenleftintro{ 
+  padding-left: 100px;
+}
+
+.elevenleftintro h1{
+    margin-top: 20px;
+    margin-left:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.elevenleftintro p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.elevenrightintro img{
+width: 350px;
+margin-top: 60px;
+}
+
+
+/* intro.html 12 */
+
+
+main .twelverightintro{
+    padding-right: 70px;
+}
+
+main .twelveleftintro{ 
+  padding-left: 100px;
+}
+
+.twelveleftintro h1{
+    margin-top: 20px;
+    margin-left:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.twelveleftintro p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.twelverightintro img{
+width: 350px;
+margin-top: 60px;
+}
+
+
+/* intro.html 13 */
+
+
+main .thirteenrightintro{
+    padding-right: 70px;
+}
+
+main .thirteenleftintro{ 
+  padding-left: 100px;
+}
+
+.thirteenleftintro h1{
+    margin-top: 20px;
+    margin-left:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.thirteenleftintro p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.thirteenrightintro img{
+width: 380px;
+height: 350px;
+margin-top: 60px;
+}
+
+
+/* intro.html 14 */
+
+main .fourteenrightintro{
+    padding-right: 70px;
+}
+
+main .fourteenleftintro{ 
+  padding-left: 100px;
+}
+
+.fourteenleftintro h1{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+    text-align: center;
+
+}
+
+.fourteenleftintro ul li {
+    margin-top: 30px;
+    font-size:25px ;
+    margin-left: 80px;
+}
+
+.fourteenrightintro img {
+   margin-right: 70px;
+   border-radius: 5px;
+   width: 350px;
+   height: 300px;
+}
+
+
+
+/* HE.html 1 */
+
+.headingHE{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-decoration:underline ;
+
+}
+
+main{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    }
+
+    
+    main .firstrightHE{
+        padding-right: 70px;
+    }
+    
+    main .firstleftHE{ 
+      padding-left: 100px;
+    }
+    
+    .firstleftHE h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .firstleftHE ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 40px;
+        
+    }
+
+    .firstrightHE img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 30px;
+
+    }
+
+
+    /* HE.html 2 */
+
+    
+    main .secondrightHE{
+        padding-right: 70px;
+    }
+    
+    main .secondleftHE{ 
+      padding-left: 100px;
+    }
+    
+    .secondleftHE h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .secondleftHE ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 40px;
+        
+    }
+
+    .secondrightHE img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 80px;
+
+    }
+
+    
+    /* HE.html 3 */
+
+    
+    main .threerightHE{
+        padding-right: 70px;
+    }
+    
+    main .threeleftHE{ 
+      padding-left: 100px;
+    }
+    
+    .threeleftHE h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .threeleftHE ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 40px;
+        
+    }
+
+    .threerightHE img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 80px;
+
+    }
+
+    /* HE.html 4 */
+
+    
+    main .fourrightHE{
+        padding-right: 70px;
+    }
+    
+    main .fourleftHE{ 
+      padding-left: 100px;
+    }
+    
+    .fourleftHE h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .fourleftHE ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 40px;
+        
+    }
+
+    .fourrightHE img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 80px;
+
+    }
+
+    /* HE.html 5 */
+
+    main .fiverightHE{
+        padding-right: 70px;
+    }
+    
+    main .fiveleftHE{ 
+      padding-left: 100px;
+    }
+    
+    .fiveleftHE h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .fiveleftHE ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 40px;
+        
+    }
+
+    .fiverightHE img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 80px;
+
+    }
+
+
+    
+    /* HE.html 6 */
+
+    
+    main .sixrightHE{
+        padding-right: 70px;
+    }
+    
+    main .sixleftHE{ 
+      padding-left: 100px;
+    }
+    
+    .sixleftHE h1{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .sixleftHE ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 40px;
+        
+    }
+
+    .sixrightHE img{
+        border-radius: 20px;
+        width: 350px;
+        margin-top: 80px;
+
+    }
+
+
+    /* HNE.html 1, 2 */
+
+    .headingHNE{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+    }
+    
+    main{
+        width: 100%;
+        display: flex ;
+        justify-content: space-between ;
+        align-items: center;
+        }
+    
+        
+        main .firstrightHNE{
+            padding-right: 70px;
+        }
+        
+        main .firstleftHNE{ 
+          padding-left: 100px;
+        }
+        
+        
+        .firstleftHNE h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .firstleftHNE p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        .firstrightHNE img{
+            border-radius: 20px;
+            width: 400px;
+            margin-top: 30px;
+    
+        }
+
+
+        /* HNE.HTML 3 , 4*/
+
+        main .threerightHNE{
+            padding-right: 70px;
+        }
+        
+        main .threeleftHNE{ 
+          padding-left: 100px;
+        }
+        
+        
+        .threeleftHNE h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .threeleftHNE p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        .threerightHNE img{
+            border-radius: 20px;
+            width: 400px;
+            margin-top: 30px;
+    
+        }
+
+         /* HNE.HTML 5 , 6*/
+
+         main .fiverightHNE{
+            padding-right: 70px;
+        }
+        
+        main .fiveleftHNE{ 
+          padding-left: 100px;
+        }
+        
+        
+        .fiveleftHNE h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .fiveleftHNE p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        .fiverightHNE img{
+            border-radius: 20px;
+            width: 400px;
+            height: 300px;
+            margin-top: 30px;
+    
+        }
+
+
+        /* HNE.HTML 7 */
+
+        .sevenheading{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            text-decoration: underline;
+        }  
+
+        main .sevenleftHNE{ 
+          padding-left: 100px;
+        }
+        
+        
+        .sevenleftHNE h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .sevenleftHNE p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        .sevenleftHNE ul li{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left:40px;
+        }
+          
+
+        /* WM.html 1*/
+
+    .headingWM{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        text-decoration:underline ;
+    }
+    
+    main{
+        width: 100%;
+        display: flex ;
+        justify-content: space-between ;
+        align-items: center;
+        }
+    
+        
+        main .firstrightWM{
+            padding-right: 70px;
+        }
+        
+        main .firstleftWM{ 
+          padding-left: 100px;
+        }
+        
+        
+        .firstleftWM h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .firstleftWM p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        .firstrightWM img{
+            border-radius: 20px;
+            width: 400px;
+            margin-top: 30px;
+    
+        }
+
+    /* WM.html 2*/
+
+        
+        main .secondleftWM{ 
+            padding-left: 100px;
+        }
+      
+        .secondleftWM h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .secondleftWM p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        
+
+        /* WM.HTML 3 */
+
+
+        main .threerightWM{
+            padding-right: 70px;
+        }
+        
+        main .threeleftWM{ 
+          padding-left: 100px;
+        }
+        
+        
+        .threeleftWM h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .threeleftWM p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+    
+        .threerightWM img{
+            border-radius: 20px;
+            width: 400px;
+            margin-top: 30px;
+    
+        }
+
+                /* WM.HTML 4 */
+
+
+        main .fourleftWM{ 
+            padding-left: 100px;
+        }
+      
+        .fourleftWM h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .fourleftWM ul li{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+
+        .fourleftWM ol li{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left:90px;
+        }
+
+        /* contact.html */
+        
+        .contact h1{
+            text-align: center;
+            margin-top: 40px;
+        }
+        .contact h1:hover{
+            color: cadetblue;
+        }
+
+        .contactname h2{
+            margin-left: 400px;
+            margin-top: 30px;
+             
+        }
+
+        .contactname span{
+            margin-left: 30px;
+            margin-top: 0px;
+            font-size: 30px;
+            color: darkblue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        
+
+        /* about.html */
+        
+        .about h1{
+            text-align: center;
+            margin-top: 40px;
+        }
+        .about h1:hover{
+            color: cadetblue;
+        }
+        .about p{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 30px;
+            text-transform: capitalize;
+            text-shadow: 1px 1px 2px #000000;
+        }
+
+
+        /* SOL.HTML 1 */
+
+
+        main .firstrightSOL{
+            padding-right: 70px;
+        }
+        
+        main .firstleftSOL{ 
+          padding-left: 100px;
+        }
+        
+        
+        .firstleftSOL h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .firstleftSOL p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+
+
+        .firstleftSOL ul li{
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+
+
+        .firstrightSOL img{
+            border-radius: 20px;
+            width: 400px;
+            margin-top: 30px;
+        }
+
+       .firstrightSOL p{
+           text-align: center;
+           font-size: 20px;
+           text-shadow: 1px 1px 2px #000000;
+           color: seagreen;
+       }
+
+       
+        /* SOL.HTML 2*/
+
+
+        main .secondrightSOL{
+            padding-right: 70px;
+        }
+        
+        main .secondleftSOL{ 
+          padding-left: 100px;
+        }
+        
+        
+        .secondleftSOL h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 60px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .secondleftSOL p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+
+        .secondleftSOL ol li{
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 60px;
+            margin-right: 40px;
+        }
+
+
+        .secondrightSOL img{
+            border-radius: 20px;
+            width: 400px;
+            height: 300px;
+            margin-top: 10px;
+        }
+
+
+        /* SOL.HTML 3*/
+
+        main .threerightSOL{
+            padding-right: 70px;
+        }
+        
+        main .threeleftSOL{ 
+          padding-left: 100px;
+        }
+        
+        
+        .threeleftSOL h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 60px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .threeleftSOL p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+            
+        }
+
+        .threerightSOL img{
+            border-radius: 20px;
+            width: 400px;
+            height: 300px;
+            margin-top: 10px;
+        }
+
+
+        /* SOL.HTML 4 5 */
+
+        
+
+        main .fourrightSOL{
+            padding-right: 70px;
+        }
+        
+        main .fourleftSOL{ 
+          padding-left: 100px;
+        }
+        
+        
+        .fourleftSOL h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-right: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .fourleftSOL p{
+            margin-bottom: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+
+
+        .fourleftSOL ol li{
+            font-size: 25px;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+
+
+        .fourrightSOL img{
+            border-radius: 20px;
+            width: 300px;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
